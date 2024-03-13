@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background, Surface -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_grey">#F9F9F9</color>
+    <color name="black_card">#18202E</color>
+    <color name="black_bg">#0F1621</color>
+
+    <!-- Brand -->
+    <color name="primary_blue">#6759FF</color>
+    <color name="secondary_orange">#FB9450</color>
+    
+    <!-- Accent Color -->
+    <color name="accent_01">#FFBC99</color>
+    <color name="accent_02">#CABDFF</color>
+    <color name="accent_03">#B1E5FC</color>
+    <color name="accent_04">#B5EBCD</color>
+    <color name="accent_05">#B5EBCD</color>
+    <color name="accent_06">#CBEBA4</color>
+    <color name="accent_07">#FB9B9B</color>
+    <color name="accent_08">#F8B0ED</color>
+    <color name="accent_09">#AFC6FF</color>
+    <color name="accent_00">#FAFAFA</color>
+    <color name="accent_11">#ECECEC</color>
+
+    <!-- Typograph -->
+    <color name="black_01">#D1D3D4</color>
+    <color name="black_02">#535763</color>
+    <color name="black_03">#2F3643</color>
+    <color name="black_04">#29303C</color>
+    <color name="black">#1A1B2D</color>
+    <color name="input_field">#2F3643</color>
+    <color name="dark_grey">#434355</color>
+    <color name="button">#2F3643</color>
+    <color name="button_disable">#EFEFEF</color>
+
+    <!-- Icon Light -->
+    <color name="menu_active">#EFEFEF</color>
+    <color name="menu">#6F767E</color>
+    
+    <!-- Color Status -->
+    <color name="green">#60996F</color>
+    <color name="orange">#DD975B</color>
+    <color name="red">#D97965</color>
+    <color name="blue">#5388D7</color>
+
+    <!-- Color Typo -->
+    <color name="primary">#1A1D1F</color>
+
+    <!-- Color Typo Text -->
+    <color name="dark_1">#172B4D</color>
+    <color name="dark_2">#41405D</color>
+
+    <!-- Color Input -->
+    <color name="defult">#F5F5F5</color>
+</resources>

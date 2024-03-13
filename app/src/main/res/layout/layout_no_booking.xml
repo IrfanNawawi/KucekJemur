@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_no_booking"
+    android:padding="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/img_booking_status_no_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_booking"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tv_booking_status"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_booking_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Upcoming Order"
+        android:textSize="20sp"
+        android:textColor="@color/primary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_booking_status_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Currently you don’t have any upcoming order. Place and track your orders from here."
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/tv_booking_status"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black_02" />
+
+    <TextView
+        android:id="@+id/tv_booking_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_primary_blue"
+        android:text="View all services"
+        android:textColor="@color/white"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_booking_status_desc"
+        android:layout_marginTop="32dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
